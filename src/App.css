@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar{
+  width: 6px;
+
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(15, 1, 1, 0.192);
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: black;
+  height: 10%;
+  border-radius: 10%;
+  
+}

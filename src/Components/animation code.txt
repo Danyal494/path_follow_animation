@@ -1,0 +1,90 @@
+     
+     curve data
+     
+      // const curve = useMemo(() => {
+    //   return new THREE.CatmullRomCurve3(
+    //     [
+    //       new THREE.Vector3(0, 0, 0),
+    //       new THREE.Vector3(0, 0, -10),
+    //       new THREE.Vector3(-2, 0, -20),
+    //       new THREE.Vector3(-3, 0, -30),
+    //       new THREE.Vector3(0, 0, -40),
+    //       new THREE.Vector3(5, 0, -50),
+    //       new THREE.Vector3(7, 0, -60),
+    //       new THREE.Vector3(5, 0, -70),
+    //       new THREE.Vector3(0, 0, -80),
+    //       new THREE.Vector3(0, 0, -90),
+    //       new THREE.Vector3(0, 0, -100),
+    //       // new THREE.Vector3(0, 0, 0),
+    //       // new THREE.Vector3(0, 0, -CURVE_DISTANCE),
+    //       // new THREE.Vector3(100, 0, -2 * CURVE_DISTANCE),
+    //       // new THREE.Vector3(-100, 0, -3 * CURVE_DISTANCE),
+    //       // new THREE.Vector3(100, 0, -4 * CURVE_DISTANCE),
+    //       // new THREE.Vector3(0, 0, -5 * CURVE_DISTANCE),
+    //       // new THREE.Vector3(0, 0, -6 * CURVE_DISTANCE),
+    //       // new THREE.Vector3(0, 0, -7 * CURVE_DISTANCE),
+    //       // new THREE. Vector3(-60, -100, 60),
+    //       // new THREE. Vector3(-60, 20, 60),
+    //       // new THREE. Vector3(-60, 120, 60),
+    //       // new  THREE.Vector3(60, 20, -60),
+    //       // new  THREE.Vector3(60, -100, -60),
+    //     ],
+    //     false,
+    //     "catmullrom",
+    //     0.5
+    //   );
+    // }, []);
+
+  
+  first animation
+  
+  //   useFrame((_state, delta) => {
+  //     const curPointIndex = Math.min(
+  //       Math.round(scroll.offset * linePoints.length),
+  //       linePoints.length - 1
+  //     );
+  //     const curPoint = linePoints[curPointIndex];
+  //     const pointAhead =
+  //       linePoints[Math.min(curPointIndex + 1, linePoints.length - 1)];
+
+
+  // // // Calculate direction to the next point
+  // // const direction = new THREE.Vector3()
+  // // .subVectors(pointAhead, curPoint)
+  // // .normalize();
+
+  
+  //       // Make the camera look in the direction of the next point
+  // // cameraGroup.current.lookAt(pointAhead);
+  //     const xDisplacement = (pointAhead.x - curPoint.x) * 80;
+  
+  //     // Math.PI / 2 -> LEFT
+  //     // -Math.PI / 2 -> RIGHT
+  
+  //     const angleRotation =
+  //       (xDisplacement < 0 ? 1 : -1) *
+  //       Math.min(Math.abs(xDisplacement), Math.PI / 3);
+  
+  //     const targetAirplaneQuaternion = new THREE.Quaternion().setFromEuler(
+  //       new THREE.Euler(
+  //         airplane.current.rotation.x,
+  //         airplane.current.rotation.y,
+  //         angleRotation
+  //       )
+  //     );
+  //     const targetCameraQuaternion = new THREE.Quaternion().setFromEuler(
+  //       new THREE.Euler(
+  //         cameraGroup.current.rotation.x,
+  //         angleRotation,
+  //         cameraGroup.current.rotation.z
+  //       )
+  //     );
+  
+  //     airplane.current.quaternion.slerp(targetAirplaneQuaternion, delta * 2);
+  //     cameraGroup.current.quaternion.slerp(targetCameraQuaternion, delta * 2);
+  
+  //     cameraGroup.current.position.lerp(curPoint, delta * 24);
+
+     
+  //   });
+  
