@@ -381,7 +381,7 @@ const Experience = () => {
         <Environment preset="sunset" blur={0.5} background="true"/>
         {/* <Background /> */}
         <Sky distance={450000} sunPosition={[0, -9, 0]} inclination={0} azimuth={0.25} />
-        <PerspectiveCamera makeDefault position={[0, 1, 10]} fov={30} />
+        <PerspectiveCamera makeDefault position={[0, 0.6, 13]} fov={30} />
         <group ref={airplane}>
         <Float floatIntensity={1} speed={1.5} rotationIntensity={0.5}>
           <Airplane
