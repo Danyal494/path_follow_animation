@@ -5,6 +5,7 @@ import {
   OrbitControls,
   PerspectiveCamera,
   Sky,
+  Stars,
   Text,
   useScroll,
 } from "@react-three/drei";
@@ -377,8 +378,10 @@ const Experience = () => {
     <>
       {/* <OrbitControls  /> */}
       <directionalLight position={[0, 3, 1]} intensity={0.1} />
+      <Stars radius={900} depth={60} count={150000} factor={5} saturation={4}  speed={1} />
+
       <group ref={cameraGroup}>
-        <Environment preset="sunset" blur={0.5} background="true"/>
+        <Environment preset="night" blur={0.5} background="true"/>
         {/* <Background /> */}
         <Sky distance={450000} sunPosition={[0, -9, 0]} inclination={0} azimuth={0.25} />
         <PerspectiveCamera makeDefault position={[0, 0.6, 13]} fov={30} />
