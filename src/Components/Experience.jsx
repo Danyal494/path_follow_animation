@@ -378,7 +378,7 @@ const Experience = () => {
     <>
       {/* <OrbitControls  /> */}
       <directionalLight position={[0, 3, 1]} intensity={0.1} />
-      <Stars radius={900} depth={60} count={150000} factor={5} saturation={4}  speed={1} />
+      <Stars radius={1000} depth={60} count={1500000} factor={5} saturation={4}  speed={1} />
 
       <group ref={cameraGroup}>
         <Environment preset="sunset" blur={0.5} background="true"/>
